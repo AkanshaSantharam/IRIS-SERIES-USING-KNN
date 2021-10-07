@@ -1,4 +1,2 @@
 # IRIS SERIES USING K-NEAREST NEIGHBOURS
- Used a MNIST dataset that contains 60,000 training images of handwritten digits from zero to nine and 10,000 images for testing. Preprocessed the data before feeding directly to the model.
-Built a handwritten digit recognition model using Convolutional Neural Network, which is very effective for image classification purposes. Trained the model which takes training data, validation data, epochs and batch size as parameters and the model is evaluated to check how good it works using the testing data. 
-Achieved an accuracy of 99%.
+Used Iris dataset from Scikit-learn module that consists 50 samples from each of three species of Iris. Four features were measured from each sample: the length and the width of the sepals and petals.  The data is split into training set and testing set using the train_test_split function. Based on the combination of these four features, a KNN Algorithm is used to distinguish the species from each other. The model is evaluated to check how good it works using the testing data. Achieved an accuracy of 97%
