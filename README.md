@@ -1,2 +1,2 @@
-# IRIS SERIES USING K-NEAREST NEIGHBOURS
+# Iris Datasets Using K-Nearest-Neighbors
 Used Iris dataset from Scikit-learn module that consists 50 samples from each of three species of Iris. Four features were measured from each sample: the length and the width of the sepals and petals. The data is split into training set and testing set using the train_test_split function. Based on the combination of these four features, a KNN Algorithm is used to distinguish the species from each other. The model is evaluated to check how good it works using the testing data. Achieved an accuracy of 97%.
